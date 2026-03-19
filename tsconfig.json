@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    /* Base */
+    "target": "ES2025",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2025"],
+
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    "paths": {
+      "#": ["./src/*"]
+    },
+
+    /* Rigor (Strict Mode) */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+
+    /* Interoperability and Performance */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+
+    /* Explicitly list the @types packages you need for optimal performance */
+    "types": ["node"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "coverage"]
+}
