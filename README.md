@@ -82,9 +82,10 @@ git ls-remote --heads https://github.com/BrenoFBarbieri/boilerplates.git
 
 ## 📦 Available Boilerplates
 
-| Name               | Version | Description                                                                     |
-| ------------------ | ------- | ------------------------------------------------------------------------------- |
-| node-ts-base-clean | >=24    | Minimal Node.js setup with TypeScript, native test runner, ESLint, and Prettier |
+| Name               | Version | Description                                                                                                                                      |
+| ------------------ | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| node-ts-base-clean | 24 LTS  | Minimal Node.js setup with TypeScript, native test runner, ESLint, and Prettier                                                                  |
+| node-ts-logging    | 24 LTS  | A production-ready boilerplate focused on structured logging, request context propagation, and environment validation, using modern native tools |
 
 ---
 
