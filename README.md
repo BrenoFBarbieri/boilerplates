@@ -7,8 +7,6 @@ This repository contains a collection of reusable project boilerplates for diffe
 
 Each boilerplate lives in its own **orphan branch**, allowing you to clone only what you need without downloading unrelated files.
 
----
-
 ## 🧩 What are orphan branches?
 
 Each boilerplate is stored in an **orphan branch**, meaning:
@@ -18,8 +16,6 @@ Each boilerplate is stored in an **orphan branch**, meaning:
 - Cloning a branch gives you **only that boilerplate**
 
 This approach keeps each template clean and avoids unnecessary files.
-
----
 
 ## ⚡ Quick Start
 
@@ -31,8 +27,6 @@ npm run dev
 ```
 
 > Replace `<boilerplate-name>` with one of the available branches.
-
----
 
 ## 🚀 How to use
 
@@ -68,8 +62,6 @@ git remote add origin <your-repo-url>
 git push -u origin main
 ```
 
----
-
 ## 🔍 Discover available boilerplates
 
 You can list all available boilerplates (branches) with:
@@ -78,16 +70,12 @@ You can list all available boilerplates (branches) with:
 git ls-remote --heads https://github.com/BrenoFBarbieri/boilerplates.git
 ```
 
----
-
 ## 📦 Available Boilerplates
 
-| Name               | Version | Description                                                                                                                                      |
-| ------------------ | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| node-ts-base-clean | 24 LTS  | Minimal Node.js setup with TypeScript, native test runner, ESLint, and Prettier                                                                  |
-| node-ts-logging    | 24 LTS  | A production-ready boilerplate focused on structured logging, request context propagation, and environment validation, using modern native tools |
-
----
+| Name                     | Version (LTS)       | Description                                                                                                                                      |
+| ------------------------ | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| node-ts-base-clean       | Node.js 24 / TS 6.0 | Minimal Node.js setup with TypeScript, native test runner, ESLint, and Prettier                                                                  |
+| node-ts-clean-ctx-logger | Node.js 24 / TS 6.0 | A production-ready boilerplate focused on structured logging, request context propagation, and environment validation, using modern native tools |
 
 ## 🧠 Concept
 
@@ -95,8 +83,6 @@ git ls-remote --heads https://github.com/BrenoFBarbieri/boilerplates.git
 - No shared history between boilerplates
 - Keeps projects clean and independent
 - Avoids cluttering GitHub with multiple repositories
-
----
 
 ## 🎯 Philosophy
 
@@ -107,8 +93,6 @@ This repository follows a **single-repo, multi-boilerplate** approach:
 - Fast cloning and minimal footprint
 
 The goal is to provide a clean and scalable way to manage personal starter templates.
-
----
 
 ## 🛠️ How to create a new boilerplate
 
@@ -136,8 +120,6 @@ git push origin <boilerplate-name>
 
 > Make sure each boilerplate is fully independent and includes its own README.
 
----
-
 ## 📌 Notes
 
 - Make sure that `user.name` and `user.email` belong to your GitHub user.
@@ -160,8 +142,6 @@ To list available remote branches:
 ```bash
 git branch -r
 ```
-
----
 
 ## 🤝 Usage
 
