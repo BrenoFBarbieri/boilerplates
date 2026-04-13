@@ -72,10 +72,11 @@ git ls-remote --heads https://github.com/BrenoFBarbieri/boilerplates.git
 
 ## 📦 Available Boilerplates
 
-| Name                     | Version (LTS)       | Description                                                                                                                                      |
-| ------------------------ | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| node-ts-base-clean       | Node.js 24 / TS 6.0 | Minimal Node.js setup with TypeScript, native test runner, ESLint, and Prettier                                                                  |
-| node-ts-clean-ctx-logger | Node.js 24 / TS 6.0 | A production-ready boilerplate focused on structured logging, request context propagation, and environment validation, using modern native tools |
+| Name                                                                                                     | Version (LTS)       | Description                                                                                                                                          |
+| -------------------------------------------------------------------------------------------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [node-ts-base-clean](https://github.com/BrenoFBarbieri/boilerplates/tree/node-ts-base-clean)             | Node.js 24 / TS 6.0 | Minimal Node.js setup with TypeScript, native test runner, ESLint, and Prettier                                                                      |
+| [node-ts-clean-logger](https://github.com/BrenoFBarbieri/boilerplates/tree/node-ts-clean-logger)         | Node.js 24 / TS 6.0 | Node.js with TypeScript focused on performance, Clean Architecture, SOLID principles, logging with **_pino_**, and native testing, production-ready. |
+| [node-ts-clean-ctx-logger](https://github.com/BrenoFBarbieri/boilerplates/tree/node-ts-clean-ctx-logger) | Node.js 24 / TS 6.0 | A production-ready boilerplate focused on structured logging, request context propagation, and environment validation, using modern native tools     |
 
 ## 🧠 Concept
 
